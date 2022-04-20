@@ -9,9 +9,84 @@
 body {
     font-family: 'Overpass', sans-serif;
     color: var(--light-grey);
+    background-color: var(--very-dark-blue);
+}
+
+p {
+    font-size: 15px;
 }
 
 .container {
+    background-color: var(--dark-blue);
+    border-radius: 20px;
+    overflow: visible;
+    position: relative;
+    margin: 200px auto 15px auto;
+    width: 500px;
+    height: 250px;
+    padding: 35px; 
+}
+
+h1 {
+    color: #fff;
+}
+
+.rating {
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+    font-size: 150%;
+    cursor: pointer;
     background-color: var(--very-dark-blue);
-    /*border: 10px;*/
+    color: var(--light-grey);
+    border: none;
+    text-align: center;
+}
+
+.rating:hover {
+    background-color: var(--hover-orange);
+    color: #fff;
+}
+
+.rating:active {
+    background-color: var(--medium-grey);
+    color: #fff;
+}
+
+.submit-rating {
+    width: 100%;
+    color: #fff;
+    background-color: var(--hover-orange);
+    border: none;
+    border-radius: 25px;
+    height: 50px;
+    font-size: 125%;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+.submit-rating:hover {
+    background-color: #fff;
+    color: var(--hover-orange);
+}
+
+.flex-container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.image-circle {
+    border-radius: 50%;
+    background-color: var(--very-dark-blue);
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    padding: 5px;
+}
+
+.image-circle img {
+    width: 100%;
+    height: auto;
+    position: relative;
+    text-align: center;
 }
