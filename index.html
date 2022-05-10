@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="\Frontend--Mentor-Challenge\style.css">
+    <link rel="stylesheet" href="style.css">
     <title>Challenge</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -18,13 +18,14 @@
         <h1>How did we do?</h1>
         <p>Please let us know how we did with your support request. All feedback is appreciated to help us improve our offering!</p>
         <div class="flex-container">
-            <input type="button" value="1" class="rating">
-            <input type="button" value="2" class="rating">
-            <input type="button" value="3" class="rating">
-            <input type="button" value="4" class="rating">
-            <input type="button" value="5" class="rating">
+            <input onclick="storeVar(this)" type="button" value="1" class="rating">
+            <input onclick="storeVar(this)" type="button" value="2" class="rating">
+            <input onclick="storeVar(this)" type="button" value="3" class="rating">
+            <input onclick="storeVar(this)" type="button" value="4" class="rating">
+            <input onclick="storeVar(this)" type="button" value="5" class="rating">
         </div>
-        <input type="submit" value="Submit" class="submit-rating">
+        <input type="submit" value="Submit" class="submit-rating" href="thank-you.html">
     </div>    
+    <script src="script.js"></script>
 </body>
 </html>
