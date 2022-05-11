@@ -4,6 +4,7 @@
 --dark-blue: hsl(213, 19%, 18%);
 --very-dark-blue: hsl(216, 12%, 8%);
 --hover-orange: hsl(25, 97%, 53%);
+--clicked-gray: #7C8798;
 }
 
 body {
@@ -90,4 +91,9 @@ h1 {
 .image-circle img {
     /* width: 50%; */
     height: auto;
+}
+
+#selected-button {
+    background-color: #7C8798;
+    color: #fff;
 }
