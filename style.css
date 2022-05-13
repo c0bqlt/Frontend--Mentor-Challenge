@@ -108,8 +108,8 @@ h1 {
     overflow: visible;
     position: relative;
     margin: 200px auto 15px auto;
-    width: 400px;
-    height: 250px;
+    width: 275px;
+    height: 300px;
     padding: 30px; 
 }
 
@@ -137,5 +137,13 @@ h1 {
 }
 
 .padding-2 {
-    padding: 0.5px;
+    padding: 0.25px;
+}
+
+.border-radius-25 {
+    border-radius: 25px;
+}
+
+.margin-bottom {
+    margin-bottom: 30px;
 }
