@@ -97,3 +97,45 @@ h1 {
     background-color: #7C8798;
     color: #fff;
 }
+
+.orange-text {
+    color: orange;
+}
+
+.ty-container {
+    background-color: var(--dark-blue);
+    border-radius: 20px;
+    overflow: visible;
+    position: relative;
+    margin: 200px auto 15px auto;
+    width: 400px;
+    height: 250px;
+    padding: 30px; 
+}
+
+.center-text {
+    text-align: center;
+}
+
+.center-item {
+    align-items: center;
+}
+
+.margin-0-auto {
+    margin: 0 auto;
+}
+
+.flex {
+    display: flex;
+}
+.very-dark-blue-bg {
+    background-color: #292a2f;
+}
+
+.width-200 {
+    width: 200px;
+}
+
+.padding-2 {
+    padding: 0.5px;
+}
